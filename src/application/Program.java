@@ -108,52 +108,5 @@ public class Program {
 			}
 			
 		}
-		
-		/* System.out.println("Enter cliente data: ");
-		System.out.print("Name: ");
-		String clientName = sc.nextLine();
-
-		System.out.print("Email: ");
-		String email = sc.next();
-
-		System.out.print("Birth date (DD/MM/YYYY): ");
-		// String date = sc.next();
-		// Date birthDate = sdf.parse(date);
-		Date birthDate = sdf.parse(sc.next());
-		Client client = new Client(clientName, email, birthDate);
-
-		// Part2 - Order
-		System.out.println("Enter order data:");
-		System.out.print("Status: ");
-		OrderStatus status = OrderStatus.valueOf(sc.next());
-		Date moment = new Date();
-		Order order = new Order(moment, status, client);
-
-		// Part3 - Items
-		System.out.println("How many items to this order? ");
-		int n = sc.nextInt();
-
-		for (int i = 0; i < n; i++) {
-			System.out.println("Enter #" + (i + 1) + " item data: ");
-
-			System.out.print("Product name: ");
-			sc.nextLine();
-			String productName = sc.nextLine();
-
-			System.out.print("Product price: ");
-			Double productPrice = sc.nextDouble();
-
-			Product product = new Product(productName, productPrice);
-
-			System.out.print("Quantity: ");
-			Integer quantity = sc.nextInt();
-
-			OrderItem items = new OrderItem(quantity, productPrice, product);
-
-			order.addItem(items);
-		} 
-		System.out.println("\nORDER SUMMARY: ");
-		System.out.println(order);
-		sc.close(); */
 	}
 }
